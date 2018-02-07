@@ -1,0 +1,22 @@
+$INCLUDE Kexample.com.+007+05184.key
+$INCLUDE Kexample.com.+007+20324.key
+
+$TTL 86400;
+$ORIGIN example.com.
+@	1D	IN	SOA example.com. hostmaster.example.com. (
+					2002022401;
+					3H;
+					15;
+					1w;
+					3h;
+					)
+		IN	NS ns1.example.com.;
+		IN	NS ns2.example.com.;
+		IN	MX 10 example.com.;
+;server host definitions
+ns1		IN	A 192.168.0.1;
+www		IN	A 192.168.0.2;
+ftp		IN	CNAME www.example.com.;
+;non server domain hosts
+bill		IN	A 192.168.0.3
+fred		IN	A 192.168.0.4

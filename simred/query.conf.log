@@ -1,0 +1,20 @@
+logging {
+
+        channel query_log {
+                file "/etc/bind/query.log" versions 3 size 5m;
+                severity dynamic;
+        };
+
+        channel query2_log {
+                file "/etc/bind/query2.log" versions 3 size 5m;
+                severity debug 3;
+        };
+
+        category default { query_log; query2_log; };
+        category update { query_log; query2_log; };
+        category update-security { query_log; query2_log; };
+        category security { query_log; query2_log; };
+        category queries { query_log; query2_log; };
+        category lame-servers { null; };
+};
+

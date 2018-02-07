@@ -1,0 +1,1270 @@
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 12
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.254 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.256 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 15
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+managed-keys-zone: Unable to fetch DNSKEY set 'dlv.isc.org': timed out
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.275 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+transfer of 'example.com/IN' from 1.1.1.1#53: shut down: operation canceled
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: operation canceled
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 60.922 secs (0 bytes/sec)
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 17
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.287 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.255 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 19
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.333 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.256 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 21
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+all zones loaded
+running
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.290 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.256 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+transfer of 'example.com/IN' from 1.1.1.1#53: shut down: operation canceled
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: operation canceled
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 99.283 secs (0 bytes/sec)
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 23
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+zone example.com/IN: refresh: failure trying master 1.1.1.1#53 (source 0.0.0.0#0): operation canceled
+managed-keys-zone: Unable to fetch DNSKEY set 'dlv.isc.org': SERVFAIL
+managed-keys-zone: Unable to fetch DNSKEY set '.': SERVFAIL
+client 127.0.0.1#55998 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#50788 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#34541 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#43408 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#51616 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#60826 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#43626 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#38760 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#46158 (2.debian.pool.ntp.org): query: 2.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#45537 (2.debian.pool.ntp.org): query: 2.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#55278 (2.debian.pool.ntp.org): query: 2.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#59209 (2.debian.pool.ntp.org): query: 2.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#60529 (3.debian.pool.ntp.org): query: 3.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#39567 (3.debian.pool.ntp.org): query: 3.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#57358 (3.debian.pool.ntp.org): query: 3.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#60966 (3.debian.pool.ntp.org): query: 3.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#32874 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#34409 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#47482 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#44243 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#42439 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#47831 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#50329 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#35873 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#41594 (2.debian.pool.ntp.org): query: 2.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#39594 (2.debian.pool.ntp.org): query: 2.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#60973 (2.debian.pool.ntp.org): query: 2.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#36104 (2.debian.pool.ntp.org): query: 2.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#42793 (3.debian.pool.ntp.org): query: 3.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#34702 (3.debian.pool.ntp.org): query: 3.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#58618 (3.debian.pool.ntp.org): query: 3.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#39549 (3.debian.pool.ntp.org): query: 3.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#38544 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#36772 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#35119 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#47081 (0.debian.pool.ntp.org): query: 0.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#44225 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#54182 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#49840 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+client 127.0.0.1#49489 (1.debian.pool.ntp.org): query: 1.debian.pool.ntp.org IN AAAA + (127.0.0.1)
+listening on IPv4 interface wlan0, 10.0.0.19#53
+received control channel command 'reconfig'
+loading configuration from '/etc/bind/named.conf'
+reading built-in trusted keys from file '/etc/bind/bind.keys'
+GeoIP Country (IPv4) (type 1) DB not available
+GeoIP Country (IPv6) (type 12) DB not available
+GeoIP City (IPv4) (type 2) DB not available
+GeoIP City (IPv4) (type 6) DB not available
+GeoIP City (IPv6) (type 30) DB not available
+GeoIP City (IPv6) (type 31) DB not available
+GeoIP Region (type 3) DB not available
+GeoIP Region (type 7) DB not available
+GeoIP ISP (type 4) DB not available
+GeoIP Org (type 5) DB not available
+GeoIP AS (type 9) DB not available
+GeoIP Domain (type 11) DB not available
+GeoIP NetSpeed (type 10) DB not available
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+couldn't mkdir '//run': Permission denied
+generating session key for dynamic DNS
+couldn't mkdir '//run': Permission denied
+could not create //run/named/session.key
+failed to generate session key for dynamic DNS: permission denied
+sizing zone task pool based on 24 zones
+using built-in DLV key for view _default
+using built-in root key for view _default
+automatic empty zone: 64.100.IN-ADDR.ARPA
+automatic empty zone: 65.100.IN-ADDR.ARPA
+automatic empty zone: 66.100.IN-ADDR.ARPA
+automatic empty zone: 67.100.IN-ADDR.ARPA
+automatic empty zone: 68.100.IN-ADDR.ARPA
+automatic empty zone: 69.100.IN-ADDR.ARPA
+automatic empty zone: 70.100.IN-ADDR.ARPA
+automatic empty zone: 71.100.IN-ADDR.ARPA
+automatic empty zone: 72.100.IN-ADDR.ARPA
+automatic empty zone: 73.100.IN-ADDR.ARPA
+automatic empty zone: 74.100.IN-ADDR.ARPA
+automatic empty zone: 75.100.IN-ADDR.ARPA
+automatic empty zone: 76.100.IN-ADDR.ARPA
+automatic empty zone: 77.100.IN-ADDR.ARPA
+automatic empty zone: 78.100.IN-ADDR.ARPA
+automatic empty zone: 79.100.IN-ADDR.ARPA
+automatic empty zone: 80.100.IN-ADDR.ARPA
+automatic empty zone: 81.100.IN-ADDR.ARPA
+automatic empty zone: 82.100.IN-ADDR.ARPA
+automatic empty zone: 83.100.IN-ADDR.ARPA
+automatic empty zone: 84.100.IN-ADDR.ARPA
+automatic empty zone: 85.100.IN-ADDR.ARPA
+automatic empty zone: 86.100.IN-ADDR.ARPA
+automatic empty zone: 87.100.IN-ADDR.ARPA
+automatic empty zone: 88.100.IN-ADDR.ARPA
+automatic empty zone: 89.100.IN-ADDR.ARPA
+automatic empty zone: 90.100.IN-ADDR.ARPA
+automatic empty zone: 91.100.IN-ADDR.ARPA
+automatic empty zone: 92.100.IN-ADDR.ARPA
+automatic empty zone: 93.100.IN-ADDR.ARPA
+automatic empty zone: 94.100.IN-ADDR.ARPA
+automatic empty zone: 95.100.IN-ADDR.ARPA
+automatic empty zone: 96.100.IN-ADDR.ARPA
+automatic empty zone: 97.100.IN-ADDR.ARPA
+automatic empty zone: 98.100.IN-ADDR.ARPA
+automatic empty zone: 99.100.IN-ADDR.ARPA
+automatic empty zone: 100.100.IN-ADDR.ARPA
+automatic empty zone: 101.100.IN-ADDR.ARPA
+automatic empty zone: 102.100.IN-ADDR.ARPA
+automatic empty zone: 103.100.IN-ADDR.ARPA
+automatic empty zone: 104.100.IN-ADDR.ARPA
+automatic empty zone: 105.100.IN-ADDR.ARPA
+automatic empty zone: 106.100.IN-ADDR.ARPA
+automatic empty zone: 107.100.IN-ADDR.ARPA
+automatic empty zone: 108.100.IN-ADDR.ARPA
+automatic empty zone: 109.100.IN-ADDR.ARPA
+automatic empty zone: 110.100.IN-ADDR.ARPA
+automatic empty zone: 111.100.IN-ADDR.ARPA
+automatic empty zone: 112.100.IN-ADDR.ARPA
+automatic empty zone: 113.100.IN-ADDR.ARPA
+automatic empty zone: 114.100.IN-ADDR.ARPA
+automatic empty zone: 115.100.IN-ADDR.ARPA
+automatic empty zone: 116.100.IN-ADDR.ARPA
+automatic empty zone: 117.100.IN-ADDR.ARPA
+automatic empty zone: 118.100.IN-ADDR.ARPA
+automatic empty zone: 119.100.IN-ADDR.ARPA
+automatic empty zone: 120.100.IN-ADDR.ARPA
+automatic empty zone: 121.100.IN-ADDR.ARPA
+automatic empty zone: 122.100.IN-ADDR.ARPA
+automatic empty zone: 123.100.IN-ADDR.ARPA
+automatic empty zone: 124.100.IN-ADDR.ARPA
+automatic empty zone: 125.100.IN-ADDR.ARPA
+automatic empty zone: 126.100.IN-ADDR.ARPA
+automatic empty zone: 127.100.IN-ADDR.ARPA
+automatic empty zone: 254.169.IN-ADDR.ARPA
+automatic empty zone: 2.0.192.IN-ADDR.ARPA
+automatic empty zone: 100.51.198.IN-ADDR.ARPA
+automatic empty zone: 113.0.203.IN-ADDR.ARPA
+automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+automatic empty zone: D.F.IP6.ARPA
+automatic empty zone: 8.E.F.IP6.ARPA
+automatic empty zone: 9.E.F.IP6.ARPA
+automatic empty zone: A.E.F.IP6.ARPA
+automatic empty zone: B.E.F.IP6.ARPA
+automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+automatic empty zone: EMPTY.AS112.ARPA
+configuring command channel from '/etc/bind/rndc.key'
+configuring command channel from '/etc/bind/rndc.key'
+reloading configuration succeeded
+any newly configured zones are now loaded
+received control channel command 'reconfig'
+loading configuration from '/etc/bind/named.conf'
+reading built-in trusted keys from file '/etc/bind/bind.keys'
+GeoIP Country (IPv4) (type 1) DB not available
+GeoIP Country (IPv6) (type 12) DB not available
+GeoIP City (IPv4) (type 2) DB not available
+GeoIP City (IPv4) (type 6) DB not available
+GeoIP City (IPv6) (type 30) DB not available
+GeoIP City (IPv6) (type 31) DB not available
+GeoIP Region (type 3) DB not available
+GeoIP Region (type 7) DB not available
+GeoIP ISP (type 4) DB not available
+GeoIP Org (type 5) DB not available
+GeoIP AS (type 9) DB not available
+GeoIP Domain (type 11) DB not available
+GeoIP NetSpeed (type 10) DB not available
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+couldn't mkdir '//run': Permission denied
+generating session key for dynamic DNS
+couldn't mkdir '//run': Permission denied
+could not create //run/named/session.key
+failed to generate session key for dynamic DNS: permission denied
+sizing zone task pool based on 24 zones
+using built-in DLV key for view _default
+using built-in root key for view _default
+automatic empty zone: 64.100.IN-ADDR.ARPA
+automatic empty zone: 65.100.IN-ADDR.ARPA
+automatic empty zone: 66.100.IN-ADDR.ARPA
+automatic empty zone: 67.100.IN-ADDR.ARPA
+automatic empty zone: 68.100.IN-ADDR.ARPA
+automatic empty zone: 69.100.IN-ADDR.ARPA
+automatic empty zone: 70.100.IN-ADDR.ARPA
+automatic empty zone: 71.100.IN-ADDR.ARPA
+automatic empty zone: 72.100.IN-ADDR.ARPA
+automatic empty zone: 73.100.IN-ADDR.ARPA
+automatic empty zone: 74.100.IN-ADDR.ARPA
+automatic empty zone: 75.100.IN-ADDR.ARPA
+automatic empty zone: 76.100.IN-ADDR.ARPA
+automatic empty zone: 77.100.IN-ADDR.ARPA
+automatic empty zone: 78.100.IN-ADDR.ARPA
+automatic empty zone: 79.100.IN-ADDR.ARPA
+automatic empty zone: 80.100.IN-ADDR.ARPA
+automatic empty zone: 81.100.IN-ADDR.ARPA
+automatic empty zone: 82.100.IN-ADDR.ARPA
+automatic empty zone: 83.100.IN-ADDR.ARPA
+automatic empty zone: 84.100.IN-ADDR.ARPA
+automatic empty zone: 85.100.IN-ADDR.ARPA
+automatic empty zone: 86.100.IN-ADDR.ARPA
+automatic empty zone: 87.100.IN-ADDR.ARPA
+automatic empty zone: 88.100.IN-ADDR.ARPA
+automatic empty zone: 89.100.IN-ADDR.ARPA
+automatic empty zone: 90.100.IN-ADDR.ARPA
+automatic empty zone: 91.100.IN-ADDR.ARPA
+automatic empty zone: 92.100.IN-ADDR.ARPA
+automatic empty zone: 93.100.IN-ADDR.ARPA
+automatic empty zone: 94.100.IN-ADDR.ARPA
+automatic empty zone: 95.100.IN-ADDR.ARPA
+automatic empty zone: 96.100.IN-ADDR.ARPA
+automatic empty zone: 97.100.IN-ADDR.ARPA
+automatic empty zone: 98.100.IN-ADDR.ARPA
+automatic empty zone: 99.100.IN-ADDR.ARPA
+automatic empty zone: 100.100.IN-ADDR.ARPA
+automatic empty zone: 101.100.IN-ADDR.ARPA
+automatic empty zone: 102.100.IN-ADDR.ARPA
+automatic empty zone: 103.100.IN-ADDR.ARPA
+automatic empty zone: 104.100.IN-ADDR.ARPA
+automatic empty zone: 105.100.IN-ADDR.ARPA
+automatic empty zone: 106.100.IN-ADDR.ARPA
+automatic empty zone: 107.100.IN-ADDR.ARPA
+automatic empty zone: 108.100.IN-ADDR.ARPA
+automatic empty zone: 109.100.IN-ADDR.ARPA
+automatic empty zone: 110.100.IN-ADDR.ARPA
+automatic empty zone: 111.100.IN-ADDR.ARPA
+automatic empty zone: 112.100.IN-ADDR.ARPA
+automatic empty zone: 113.100.IN-ADDR.ARPA
+automatic empty zone: 114.100.IN-ADDR.ARPA
+automatic empty zone: 115.100.IN-ADDR.ARPA
+automatic empty zone: 116.100.IN-ADDR.ARPA
+automatic empty zone: 117.100.IN-ADDR.ARPA
+automatic empty zone: 118.100.IN-ADDR.ARPA
+automatic empty zone: 119.100.IN-ADDR.ARPA
+automatic empty zone: 120.100.IN-ADDR.ARPA
+automatic empty zone: 121.100.IN-ADDR.ARPA
+automatic empty zone: 122.100.IN-ADDR.ARPA
+automatic empty zone: 123.100.IN-ADDR.ARPA
+automatic empty zone: 124.100.IN-ADDR.ARPA
+automatic empty zone: 125.100.IN-ADDR.ARPA
+automatic empty zone: 126.100.IN-ADDR.ARPA
+automatic empty zone: 127.100.IN-ADDR.ARPA
+automatic empty zone: 254.169.IN-ADDR.ARPA
+automatic empty zone: 2.0.192.IN-ADDR.ARPA
+automatic empty zone: 100.51.198.IN-ADDR.ARPA
+automatic empty zone: 113.0.203.IN-ADDR.ARPA
+automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+automatic empty zone: D.F.IP6.ARPA
+automatic empty zone: 8.E.F.IP6.ARPA
+automatic empty zone: 9.E.F.IP6.ARPA
+automatic empty zone: A.E.F.IP6.ARPA
+automatic empty zone: B.E.F.IP6.ARPA
+automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+automatic empty zone: EMPTY.AS112.ARPA
+configuring command channel from '/etc/bind/rndc.key'
+configuring command channel from '/etc/bind/rndc.key'
+zone example.com/IN: refresh: failure trying master 1.1.1.1#53 (source 0.0.0.0#0): operation canceled
+managed-keys-zone: Unable to fetch DNSKEY set 'dlv.isc.org': operation canceled
+reloading configuration succeeded
+managed-keys-zone: Unable to fetch DNSKEY set '.': operation canceled
+any newly configured zones are now loaded
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.304 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.263 secs (0 bytes/sec)
+no longer listening on 10.0.0.19#53
+listening on IPv4 interface wlan0, 192.168.8.108#53
+received control channel command 'reconfig'
+loading configuration from '/etc/bind/named.conf'
+reading built-in trusted keys from file '/etc/bind/bind.keys'
+GeoIP Country (IPv4) (type 1) DB not available
+GeoIP Country (IPv6) (type 12) DB not available
+GeoIP City (IPv4) (type 2) DB not available
+GeoIP City (IPv4) (type 6) DB not available
+GeoIP City (IPv6) (type 30) DB not available
+GeoIP City (IPv6) (type 31) DB not available
+GeoIP Region (type 3) DB not available
+GeoIP Region (type 7) DB not available
+GeoIP ISP (type 4) DB not available
+GeoIP Org (type 5) DB not available
+GeoIP AS (type 9) DB not available
+GeoIP Domain (type 11) DB not available
+GeoIP NetSpeed (type 10) DB not available
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+couldn't mkdir '//run': Permission denied
+generating session key for dynamic DNS
+couldn't mkdir '//run': Permission denied
+could not create //run/named/session.key
+failed to generate session key for dynamic DNS: permission denied
+sizing zone task pool based on 24 zones
+using built-in DLV key for view _default
+using built-in root key for view _default
+automatic empty zone: 64.100.IN-ADDR.ARPA
+automatic empty zone: 65.100.IN-ADDR.ARPA
+automatic empty zone: 66.100.IN-ADDR.ARPA
+automatic empty zone: 67.100.IN-ADDR.ARPA
+automatic empty zone: 68.100.IN-ADDR.ARPA
+automatic empty zone: 69.100.IN-ADDR.ARPA
+automatic empty zone: 70.100.IN-ADDR.ARPA
+automatic empty zone: 71.100.IN-ADDR.ARPA
+automatic empty zone: 72.100.IN-ADDR.ARPA
+automatic empty zone: 73.100.IN-ADDR.ARPA
+automatic empty zone: 74.100.IN-ADDR.ARPA
+automatic empty zone: 75.100.IN-ADDR.ARPA
+automatic empty zone: 76.100.IN-ADDR.ARPA
+automatic empty zone: 77.100.IN-ADDR.ARPA
+automatic empty zone: 78.100.IN-ADDR.ARPA
+automatic empty zone: 79.100.IN-ADDR.ARPA
+automatic empty zone: 80.100.IN-ADDR.ARPA
+automatic empty zone: 81.100.IN-ADDR.ARPA
+automatic empty zone: 82.100.IN-ADDR.ARPA
+automatic empty zone: 83.100.IN-ADDR.ARPA
+automatic empty zone: 84.100.IN-ADDR.ARPA
+automatic empty zone: 85.100.IN-ADDR.ARPA
+automatic empty zone: 86.100.IN-ADDR.ARPA
+automatic empty zone: 87.100.IN-ADDR.ARPA
+automatic empty zone: 88.100.IN-ADDR.ARPA
+automatic empty zone: 89.100.IN-ADDR.ARPA
+automatic empty zone: 90.100.IN-ADDR.ARPA
+automatic empty zone: 91.100.IN-ADDR.ARPA
+automatic empty zone: 92.100.IN-ADDR.ARPA
+automatic empty zone: 93.100.IN-ADDR.ARPA
+automatic empty zone: 94.100.IN-ADDR.ARPA
+automatic empty zone: 95.100.IN-ADDR.ARPA
+automatic empty zone: 96.100.IN-ADDR.ARPA
+automatic empty zone: 97.100.IN-ADDR.ARPA
+automatic empty zone: 98.100.IN-ADDR.ARPA
+automatic empty zone: 99.100.IN-ADDR.ARPA
+automatic empty zone: 100.100.IN-ADDR.ARPA
+automatic empty zone: 101.100.IN-ADDR.ARPA
+automatic empty zone: 102.100.IN-ADDR.ARPA
+automatic empty zone: 103.100.IN-ADDR.ARPA
+automatic empty zone: 104.100.IN-ADDR.ARPA
+automatic empty zone: 105.100.IN-ADDR.ARPA
+automatic empty zone: 106.100.IN-ADDR.ARPA
+automatic empty zone: 107.100.IN-ADDR.ARPA
+automatic empty zone: 108.100.IN-ADDR.ARPA
+automatic empty zone: 109.100.IN-ADDR.ARPA
+automatic empty zone: 110.100.IN-ADDR.ARPA
+automatic empty zone: 111.100.IN-ADDR.ARPA
+automatic empty zone: 112.100.IN-ADDR.ARPA
+automatic empty zone: 113.100.IN-ADDR.ARPA
+automatic empty zone: 114.100.IN-ADDR.ARPA
+automatic empty zone: 115.100.IN-ADDR.ARPA
+automatic empty zone: 116.100.IN-ADDR.ARPA
+automatic empty zone: 117.100.IN-ADDR.ARPA
+automatic empty zone: 118.100.IN-ADDR.ARPA
+automatic empty zone: 119.100.IN-ADDR.ARPA
+automatic empty zone: 120.100.IN-ADDR.ARPA
+automatic empty zone: 121.100.IN-ADDR.ARPA
+automatic empty zone: 122.100.IN-ADDR.ARPA
+automatic empty zone: 123.100.IN-ADDR.ARPA
+automatic empty zone: 124.100.IN-ADDR.ARPA
+automatic empty zone: 125.100.IN-ADDR.ARPA
+automatic empty zone: 126.100.IN-ADDR.ARPA
+automatic empty zone: 127.100.IN-ADDR.ARPA
+automatic empty zone: 254.169.IN-ADDR.ARPA
+automatic empty zone: 2.0.192.IN-ADDR.ARPA
+automatic empty zone: 100.51.198.IN-ADDR.ARPA
+automatic empty zone: 113.0.203.IN-ADDR.ARPA
+automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+automatic empty zone: D.F.IP6.ARPA
+automatic empty zone: 8.E.F.IP6.ARPA
+automatic empty zone: 9.E.F.IP6.ARPA
+automatic empty zone: A.E.F.IP6.ARPA
+automatic empty zone: B.E.F.IP6.ARPA
+automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+automatic empty zone: EMPTY.AS112.ARPA
+configuring command channel from '/etc/bind/rndc.key'
+configuring command channel from '/etc/bind/rndc.key'
+reloading configuration succeeded
+any newly configured zones are now loaded
+received control channel command 'reconfig'
+loading configuration from '/etc/bind/named.conf'
+reading built-in trusted keys from file '/etc/bind/bind.keys'
+GeoIP Country (IPv4) (type 1) DB not available
+GeoIP Country (IPv6) (type 12) DB not available
+GeoIP City (IPv4) (type 2) DB not available
+GeoIP City (IPv4) (type 6) DB not available
+GeoIP City (IPv6) (type 30) DB not available
+GeoIP City (IPv6) (type 31) DB not available
+GeoIP Region (type 3) DB not available
+GeoIP Region (type 7) DB not available
+GeoIP ISP (type 4) DB not available
+GeoIP Org (type 5) DB not available
+GeoIP AS (type 9) DB not available
+GeoIP Domain (type 11) DB not available
+GeoIP NetSpeed (type 10) DB not available
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+couldn't mkdir '//run': Permission denied
+generating session key for dynamic DNS
+couldn't mkdir '//run': Permission denied
+could not create //run/named/session.key
+failed to generate session key for dynamic DNS: permission denied
+sizing zone task pool based on 24 zones
+using built-in DLV key for view _default
+using built-in root key for view _default
+automatic empty zone: 64.100.IN-ADDR.ARPA
+automatic empty zone: 65.100.IN-ADDR.ARPA
+automatic empty zone: 66.100.IN-ADDR.ARPA
+automatic empty zone: 67.100.IN-ADDR.ARPA
+automatic empty zone: 68.100.IN-ADDR.ARPA
+automatic empty zone: 69.100.IN-ADDR.ARPA
+automatic empty zone: 70.100.IN-ADDR.ARPA
+automatic empty zone: 71.100.IN-ADDR.ARPA
+automatic empty zone: 72.100.IN-ADDR.ARPA
+automatic empty zone: 73.100.IN-ADDR.ARPA
+automatic empty zone: 74.100.IN-ADDR.ARPA
+automatic empty zone: 75.100.IN-ADDR.ARPA
+automatic empty zone: 76.100.IN-ADDR.ARPA
+automatic empty zone: 77.100.IN-ADDR.ARPA
+automatic empty zone: 78.100.IN-ADDR.ARPA
+automatic empty zone: 79.100.IN-ADDR.ARPA
+automatic empty zone: 80.100.IN-ADDR.ARPA
+automatic empty zone: 81.100.IN-ADDR.ARPA
+automatic empty zone: 82.100.IN-ADDR.ARPA
+automatic empty zone: 83.100.IN-ADDR.ARPA
+automatic empty zone: 84.100.IN-ADDR.ARPA
+automatic empty zone: 85.100.IN-ADDR.ARPA
+automatic empty zone: 86.100.IN-ADDR.ARPA
+automatic empty zone: 87.100.IN-ADDR.ARPA
+automatic empty zone: 88.100.IN-ADDR.ARPA
+automatic empty zone: 89.100.IN-ADDR.ARPA
+automatic empty zone: 90.100.IN-ADDR.ARPA
+automatic empty zone: 91.100.IN-ADDR.ARPA
+automatic empty zone: 92.100.IN-ADDR.ARPA
+automatic empty zone: 93.100.IN-ADDR.ARPA
+automatic empty zone: 94.100.IN-ADDR.ARPA
+automatic empty zone: 95.100.IN-ADDR.ARPA
+automatic empty zone: 96.100.IN-ADDR.ARPA
+automatic empty zone: 97.100.IN-ADDR.ARPA
+automatic empty zone: 98.100.IN-ADDR.ARPA
+automatic empty zone: 99.100.IN-ADDR.ARPA
+automatic empty zone: 100.100.IN-ADDR.ARPA
+automatic empty zone: 101.100.IN-ADDR.ARPA
+automatic empty zone: 102.100.IN-ADDR.ARPA
+automatic empty zone: 103.100.IN-ADDR.ARPA
+automatic empty zone: 104.100.IN-ADDR.ARPA
+automatic empty zone: 105.100.IN-ADDR.ARPA
+automatic empty zone: 106.100.IN-ADDR.ARPA
+automatic empty zone: 107.100.IN-ADDR.ARPA
+automatic empty zone: 108.100.IN-ADDR.ARPA
+automatic empty zone: 109.100.IN-ADDR.ARPA
+automatic empty zone: 110.100.IN-ADDR.ARPA
+automatic empty zone: 111.100.IN-ADDR.ARPA
+automatic empty zone: 112.100.IN-ADDR.ARPA
+automatic empty zone: 113.100.IN-ADDR.ARPA
+automatic empty zone: 114.100.IN-ADDR.ARPA
+automatic empty zone: 115.100.IN-ADDR.ARPA
+automatic empty zone: 116.100.IN-ADDR.ARPA
+automatic empty zone: 117.100.IN-ADDR.ARPA
+automatic empty zone: 118.100.IN-ADDR.ARPA
+automatic empty zone: 119.100.IN-ADDR.ARPA
+automatic empty zone: 120.100.IN-ADDR.ARPA
+automatic empty zone: 121.100.IN-ADDR.ARPA
+automatic empty zone: 122.100.IN-ADDR.ARPA
+automatic empty zone: 123.100.IN-ADDR.ARPA
+automatic empty zone: 124.100.IN-ADDR.ARPA
+automatic empty zone: 125.100.IN-ADDR.ARPA
+automatic empty zone: 126.100.IN-ADDR.ARPA
+automatic empty zone: 127.100.IN-ADDR.ARPA
+automatic empty zone: 254.169.IN-ADDR.ARPA
+automatic empty zone: 2.0.192.IN-ADDR.ARPA
+automatic empty zone: 100.51.198.IN-ADDR.ARPA
+automatic empty zone: 113.0.203.IN-ADDR.ARPA
+automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+automatic empty zone: D.F.IP6.ARPA
+automatic empty zone: 8.E.F.IP6.ARPA
+automatic empty zone: 9.E.F.IP6.ARPA
+automatic empty zone: A.E.F.IP6.ARPA
+automatic empty zone: B.E.F.IP6.ARPA
+automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+automatic empty zone: EMPTY.AS112.ARPA
+configuring command channel from '/etc/bind/rndc.key'
+configuring command channel from '/etc/bind/rndc.key'
+reloading configuration succeeded
+any newly configured zones are now loaded
+managed-keys-zone: Unable to fetch DNSKEY set 'dlv.isc.org': operation canceled
+zone example.com/IN: refresh: failure trying master 1.1.1.1#53 (source 0.0.0.0#0): operation canceled
+managed-keys-zone: Unable to fetch DNSKEY set '.': operation canceled
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.228 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+received control channel command 'reload'
+loading configuration from '/etc/bind/named.conf'
+/etc/bind/named.conf.default-zones:32: writeable file 'example.com.zone.signed': already in use: /etc/bind/named.conf.local:11
+reloading configuration failed: failure
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.8.108#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 31
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+all zones loaded
+running
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.8.108#53
+transfer of 'example.com/IN' from 1.1.1.1#53: shut down: operation canceled
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: operation canceled
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 124.222 secs (0 bytes/sec)
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 33
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: network unreachable
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: network unreachable
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 3.071 secs (0 bytes/sec)
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.8.108#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 35
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.8.108#53
+exiting
+managed-keys-zone: loaded serial 37
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.8.108#53
+exiting
+managed-keys-zone: loaded serial 39
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone localhost/IN: loaded serial 2
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.274 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.255 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.8.108#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 41
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+/etc/bind/db.local:13: localhost\010: bad owner name (check-names)
+zone localhost\010/IN: loading from master file /etc/bind/db.local failed: bad owner name (check-names)
+zone localhost\010/IN: not loaded due to errors.
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+transfer of 'example.com/IN' from 1.1.1.1#53: shut down: operation canceled
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: operation canceled
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 41.089 secs (0 bytes/sec)
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 43
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone chhaseonline.fiesinscricoes.com.br\010/IN: loading from master file blackhole.hosts failed: file not found
+zone chhaseonline.fiesinscricoes.com.br\010/IN: not loaded due to errors.
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+/etc/bind/db.local:13: localhost\010: bad owner name (check-names)
+zone localhost\010/IN: loading from master file /etc/bind/db.local failed: bad owner name (check-names)
+zone localhost\010/IN: not loaded due to errors.
+all zones loaded
+running
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.233 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.256 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.274 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+received SIGHUP signal to reload zones
+loading configuration from '/etc/bind/named.conf'
+reading built-in trusted keys from file '/etc/bind/bind.keys'
+GeoIP Country (IPv4) (type 1) DB not available
+GeoIP Country (IPv6) (type 12) DB not available
+GeoIP City (IPv4) (type 2) DB not available
+GeoIP City (IPv4) (type 6) DB not available
+GeoIP City (IPv6) (type 30) DB not available
+GeoIP City (IPv6) (type 31) DB not available
+GeoIP Region (type 3) DB not available
+GeoIP Region (type 7) DB not available
+GeoIP ISP (type 4) DB not available
+GeoIP Org (type 5) DB not available
+GeoIP AS (type 9) DB not available
+GeoIP Domain (type 11) DB not available
+GeoIP NetSpeed (type 10) DB not available
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+couldn't mkdir '//run': Permission denied
+generating session key for dynamic DNS
+couldn't mkdir '//run': Permission denied
+could not create //run/named/session.key
+failed to generate session key for dynamic DNS: permission denied
+sizing zone task pool based on 25 zones
+using built-in DLV key for view _default
+using built-in root key for view _default
+automatic empty zone: 64.100.IN-ADDR.ARPA
+automatic empty zone: 65.100.IN-ADDR.ARPA
+automatic empty zone: 66.100.IN-ADDR.ARPA
+automatic empty zone: 67.100.IN-ADDR.ARPA
+automatic empty zone: 68.100.IN-ADDR.ARPA
+automatic empty zone: 69.100.IN-ADDR.ARPA
+automatic empty zone: 70.100.IN-ADDR.ARPA
+automatic empty zone: 71.100.IN-ADDR.ARPA
+automatic empty zone: 72.100.IN-ADDR.ARPA
+automatic empty zone: 73.100.IN-ADDR.ARPA
+automatic empty zone: 74.100.IN-ADDR.ARPA
+automatic empty zone: 75.100.IN-ADDR.ARPA
+automatic empty zone: 76.100.IN-ADDR.ARPA
+automatic empty zone: 77.100.IN-ADDR.ARPA
+automatic empty zone: 78.100.IN-ADDR.ARPA
+automatic empty zone: 79.100.IN-ADDR.ARPA
+automatic empty zone: 80.100.IN-ADDR.ARPA
+automatic empty zone: 81.100.IN-ADDR.ARPA
+automatic empty zone: 82.100.IN-ADDR.ARPA
+automatic empty zone: 83.100.IN-ADDR.ARPA
+automatic empty zone: 84.100.IN-ADDR.ARPA
+automatic empty zone: 85.100.IN-ADDR.ARPA
+automatic empty zone: 86.100.IN-ADDR.ARPA
+automatic empty zone: 87.100.IN-ADDR.ARPA
+automatic empty zone: 88.100.IN-ADDR.ARPA
+automatic empty zone: 89.100.IN-ADDR.ARPA
+automatic empty zone: 90.100.IN-ADDR.ARPA
+automatic empty zone: 91.100.IN-ADDR.ARPA
+automatic empty zone: 92.100.IN-ADDR.ARPA
+automatic empty zone: 93.100.IN-ADDR.ARPA
+automatic empty zone: 94.100.IN-ADDR.ARPA
+automatic empty zone: 95.100.IN-ADDR.ARPA
+automatic empty zone: 96.100.IN-ADDR.ARPA
+automatic empty zone: 97.100.IN-ADDR.ARPA
+automatic empty zone: 98.100.IN-ADDR.ARPA
+automatic empty zone: 99.100.IN-ADDR.ARPA
+automatic empty zone: 100.100.IN-ADDR.ARPA
+automatic empty zone: 101.100.IN-ADDR.ARPA
+automatic empty zone: 102.100.IN-ADDR.ARPA
+automatic empty zone: 103.100.IN-ADDR.ARPA
+automatic empty zone: 104.100.IN-ADDR.ARPA
+automatic empty zone: 105.100.IN-ADDR.ARPA
+automatic empty zone: 106.100.IN-ADDR.ARPA
+automatic empty zone: 107.100.IN-ADDR.ARPA
+automatic empty zone: 108.100.IN-ADDR.ARPA
+automatic empty zone: 109.100.IN-ADDR.ARPA
+automatic empty zone: 110.100.IN-ADDR.ARPA
+automatic empty zone: 111.100.IN-ADDR.ARPA
+automatic empty zone: 112.100.IN-ADDR.ARPA
+automatic empty zone: 113.100.IN-ADDR.ARPA
+automatic empty zone: 114.100.IN-ADDR.ARPA
+automatic empty zone: 115.100.IN-ADDR.ARPA
+automatic empty zone: 116.100.IN-ADDR.ARPA
+automatic empty zone: 117.100.IN-ADDR.ARPA
+automatic empty zone: 118.100.IN-ADDR.ARPA
+automatic empty zone: 119.100.IN-ADDR.ARPA
+automatic empty zone: 120.100.IN-ADDR.ARPA
+automatic empty zone: 121.100.IN-ADDR.ARPA
+automatic empty zone: 122.100.IN-ADDR.ARPA
+automatic empty zone: 123.100.IN-ADDR.ARPA
+automatic empty zone: 124.100.IN-ADDR.ARPA
+automatic empty zone: 125.100.IN-ADDR.ARPA
+automatic empty zone: 126.100.IN-ADDR.ARPA
+automatic empty zone: 127.100.IN-ADDR.ARPA
+automatic empty zone: 254.169.IN-ADDR.ARPA
+automatic empty zone: 2.0.192.IN-ADDR.ARPA
+automatic empty zone: 100.51.198.IN-ADDR.ARPA
+automatic empty zone: 113.0.203.IN-ADDR.ARPA
+automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+automatic empty zone: D.F.IP6.ARPA
+automatic empty zone: 8.E.F.IP6.ARPA
+automatic empty zone: 9.E.F.IP6.ARPA
+automatic empty zone: A.E.F.IP6.ARPA
+automatic empty zone: B.E.F.IP6.ARPA
+automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+automatic empty zone: EMPTY.AS112.ARPA
+configuring command channel from '/etc/bind/rndc.key'
+configuring command channel from '/etc/bind/rndc.key'
+reloading configuration succeeded
+reloading zones succeeded
+zone chhaseonline.fiesinscricoes.com.br\010/IN: loading from master file blackhole.hosts failed: file not found
+zone chhaseonline.fiesinscricoes.com.br\010/IN: not loaded due to errors.
+/etc/bind/db.local:13: localhost\010: bad owner name (check-names)
+zone localhost\010/IN: loading from master file /etc/bind/db.local failed: bad owner name (check-names)
+zone localhost\010/IN: not loaded due to errors.
+all zones loaded
+running
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.233 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 47
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone chhaseonline.fiesinscricoes.com.br\010/IN: loading from master file blackhole.hosts failed: file not found
+zone chhaseonline.fiesinscricoes.com.br\010/IN: not loaded due to errors.
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+/etc/bind/db.local:13: localhost\010: bad owner name (check-names)
+zone localhost\010/IN: loading from master file /etc/bind/db.local failed: bad owner name (check-names)
+zone localhost\010/IN: not loaded due to errors.
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+transfer of 'example.com/IN' from 1.1.1.1#53: shut down: operation canceled
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: operation canceled
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 39.692 secs (0 bytes/sec)
+exiting
+managed-keys-zone: journal file is out of date: removing journal file
+managed-keys-zone: loaded serial 49
+zone 0.in-addr.arpa/IN: loaded serial 1
+zone 16.172.in-addr.arpa/IN: loaded serial 1
+zone 17.172.in-addr.arpa/IN: loaded serial 1
+zone 10.in-addr.arpa/IN: loaded serial 1
+zone 29.172.in-addr.arpa/IN: loaded serial 1
+zone 31.172.in-addr.arpa/IN: loaded serial 1
+zone 255.in-addr.arpa/IN: loaded serial 1
+zone 127.in-addr.arpa/IN: loaded serial 1
+zone 19.172.in-addr.arpa/IN: loaded serial 1
+zone 30.172.in-addr.arpa/IN: loaded serial 1
+zone 18.172.in-addr.arpa/IN: loaded serial 1
+zone 21.172.in-addr.arpa/IN: loaded serial 1
+zone 24.172.in-addr.arpa/IN: loaded serial 1
+zone 20.172.in-addr.arpa/IN: loaded serial 1
+zone 28.172.in-addr.arpa/IN: loaded serial 1
+zone 26.172.in-addr.arpa/IN: loaded serial 1
+zone 168.192.in-addr.arpa/IN: loaded serial 1
+zone 23.172.in-addr.arpa/IN: loaded serial 1
+/etc/bind/db.local:13: localhost\010: bad owner name (check-names)
+zone localhost\010/IN: loading from master file /etc/bind/db.local failed: bad owner name (check-names)
+zone localhost\010/IN: not loaded due to errors.
+zone 22.172.in-addr.arpa/IN: loaded serial 1
+zone 27.172.in-addr.arpa/IN: loaded serial 1
+zone chhaseonline.fiesinscricoes.com.br\010/IN: loading from master file blackhole.hosts failed: file not found
+zone chhaseonline.fiesinscricoes.com.br\010/IN: not loaded due to errors.
+zone 25.172.in-addr.arpa/IN: loaded serial 1
+all zones loaded
+running
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.226 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: Transfer started.
+transfer of 'example.com/IN' from 1.1.1.1#53: failed to connect: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer status: timed out
+transfer of 'example.com/IN' from 1.1.1.1#53: Transfer completed: 0 messages, 0 records, 0 bytes, 127.255 secs (0 bytes/sec)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+zone example.com/IN: refresh: retry limit for master 1.1.1.1#53 exceeded (source 0.0.0.0#0)
+received control channel command 'stop'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on ::#53
+no longer listening on 127.0.0.1#53
+no longer listening on 10.0.0.19#53
+exiting

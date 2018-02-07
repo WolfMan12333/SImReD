@@ -1,0 +1,6 @@
+;BIND db file for ad servers - point all addresses to localhost
+;
+;Originally for use with the list of ad server hostnames at:
+;
+;
+

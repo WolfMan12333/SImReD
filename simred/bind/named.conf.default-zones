@@ -1,0 +1,2297 @@
+// prime the server with knowledge of the root servers
+zone "." {
+	type hint;
+	file "/etc/bind/db.root";
+};
+
+// be authoritative for the localhost forward and reverse zones, and for
+// broadcast zones as per RFC 1912
+
+zone "localhost
+" {
+	type master;
+	file "/etc/bind/db.local";
+};
+
+zone "127.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.127";
+};
+
+zone "0.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.0";
+};
+
+zone "255.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.255";
+};
+
+zone "example.com" IN {
+	type slave;
+	file "example.com.zone.signed";
+	masters { 1.1.1.1; } ;
+	allow-notify { 1.1.1.1; };
+};
+
+zone "chhaseonline.fiesinscricoes.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "
+" { type master; notify no; file "blackhole.hosts"; };
+zone "chhaseonline.fiesinscricoes.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bardibholeshwar.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "3n-lifemed.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "acexace.altervista.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "annydd.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dintandnesin.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verify-account.boonautomations.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gaobangladesh.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "updatie.cgi-bin.websrcr.cmd.tsafetrade.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "anastylescreeze.co.uk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "egka.org.uk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page98.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "docsave.000webhostapp.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.apple-iforgax.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "akhbar.msryh.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "servicemyaccount-service.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.apple-kor.store
+" { type master; notify no; file "blackhole.hosts"; };
+zone "confirmyourcontacts.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleidwebpayments.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "primoframe.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sslnewupdatess2017.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "av17oja512.redbear1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sunsetofmysunrise.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wviw61yclu.bigcat1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bank.barclays.co.uk.olb.auth.loginlink.action.loginlink.action.loginlink.action.loginlink.action.designersahab.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "thioppindkcom.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "aikido-bg.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "paypal-deu.center
+" { type master; notify no; file "blackhole.hosts"; };
+zone "qlckhs.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "member-validation.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gvhmf.online
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dkswnsgml999.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-ioseox10.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "attrw.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.apple-id-manage-apps.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ei0sj6fwb1.heavypanda1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "suisscard.ch.webapp.securecode.smart-arcot.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "skcym.co.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "aazadcharitabletrust.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "my-applelocate.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.posta.it.bancaposta.foo-autenticazione.xnxrobrz8mhwnkvfljkpdeyyuxfkbr8y5ufjmnikzf8dqt92cjhfn7tytzju.medicupuli.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fvwokp9rjlpxs.organiclion1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dge.com.my
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.icloud-air-apple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "activemedia.co.nz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rrmultisales.co.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appiexr-iphone.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "alterbienes.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "w1-apple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "electricfence.levsantronic.ro
+" { type master; notify no; file "blackhole.hosts"; };
+zone "imv-ingenieria.cl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "econo-fitness.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "shkvtpwm.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "espaceclientsv5-orange-fr.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "djdsh1234.0pe.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "iphone-recuperar.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "yiwumen.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-account-notificaitions.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verid02.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "updateverification-service.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "checkout-cybertransactionpaypal.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gurvindersinghchandiworld.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "almasweddings.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "khanforbes.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ppintl-service-limited-account-id-p9.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "supportaccountlimitedservices-uk.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "accountlocked-verification.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "comunicacorp.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "m.facebook.com--------------securelogin-----------viewaccount.pillsaga.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "update-maintenance-verify.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bank.barclays.co.uk.olb.auth.loginlink.action.loginlink.action.loginlink.action.loginlink.action.totalbrakes.com.ar
+" { type master; notify no; file "blackhole.hosts"; };
+zone "certificado-autorizacao-segura-br.jelastic.regruhosting.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "adesarmiento.es
+" { type master; notify no; file "blackhole.hosts"; };
+zone "infinitimaven.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "amazon-sicherheit.kunden-ueberpruefung.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page94.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "security-paymentacces-id.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "smj0385.oa.to
+" { type master; notify no; file "blackhole.hosts"; };
+zone "abai.app15.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "webmadlofinsclingw.pe.hu
+" { type master; notify no; file "blackhole.hosts"; };
+zone "xnfajlls.whitekoala1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lokotoys.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "security-service.group
+" { type master; notify no; file "blackhole.hosts"; };
+zone "kugo.f3322.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "steam.fasting.tk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ccczipper.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "uniteddental.ca
+" { type master; notify no; file "blackhole.hosts"; };
+zone "yourtransactionislimitaion.center
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cdccommercial.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ivorlederle.co.za
+" { type master; notify no; file "blackhole.hosts"; };
+zone "blackren.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleid-emailupdate.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "manage-myaccount.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "iforidgot-apple.loan
+" { type master; notify no; file "blackhole.hosts"; };
+zone "opami.flame-clothing.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "guswns7491.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icloud-br.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "backkun15.kro.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "jmsalesassociates.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple.id.appleverificationupdate.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "porto.redirectme.net:3000
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.appleid-passwords.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "tvoaatjqbb.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "updatepolicedverif1id.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "b84dzs.smallduck1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "maviegeradyo.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "signin.amazon.co.uk-prime.form-unsuscribe.id-177.mgh.net.au
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bit-mod.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hjhqmbxyinislkkt.1j43kf.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "devbros.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "signin.amazon.co.uk-prime.form-unsuscribe.id-4644.downescorporateservices.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "xcgbwnk.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.posta.it.bancaposta.foo-autenticazione.uxbsorarnsgvyl6y9jnha5tzfuo36i0q6a0jsz2vryrg0nu9w8fn2od70rz6.lopamuser.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fs.blackpanda1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "designaxis.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "docscloud.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-ixosc10.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "0swvd0ui6d0w75es.lazycat1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hjhqmbxyinislkkt.1fzjn3.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "login-verify-account-intl.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ujnmxxetwthe.us
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myid-iphone.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "nagorcapital.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "glassbridge.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "orient-nsk.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "p27dokhpz2n7nvgr.17u2yg.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "china-iphone.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "renew-appleid-appservice-recovry-wmiid2017-billingexp.case4001.pw
+" { type master; notify no; file "blackhole.hosts"; };
+zone "onthespotmedia.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "seahover.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "nab-activation-login.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dissociativeszone.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ss1107ss.zz.am
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hhalco.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "acpe.edu.np
+" { type master; notify no; file "blackhole.hosts"; };
+zone "r1-group.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "g-docs.pro
+" { type master; notify no; file "blackhole.hosts"; };
+zone "management-dataicloud.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sys-v1.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "7q2oklzzfe0lt62s.greenmouse1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ozropacbip.bigsnake1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "m-vk.fasting.tk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cloudcreations.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "effect12.kro.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple12313.0pe.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cliente05.novoportalb-b.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "netflixuser-support.validate-user.activation.safeguard.39f.netflix-secureserver.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "6a6fuszu6h.lazyduck1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "webapps-account.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.posta.it.bancaposta.foo-autenticazione.stu8sqg9bm2xvmss0ut0ujnsvd4wmqgvkrs38z1zcrwxufftzytk9gcuavrn.pesteledeaut.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "tmdwnrnt1.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page88.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "assistenzapaypa.altervista.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "urlbox.eu
+" { type master; notify no; file "blackhole.hosts"; };
+zone "protection201-account.6827-update.team.com8serv1130.webs001231cr-cm-lgin-submmit-id99-l0gin-submito9-id.ppi11781-lo0gin-loogiin-2578901.ap.serv15676.betatem.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "amazonrewads.ga
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-redirect-authentication-account-recovery.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "firellia.ws
+" { type master; notify no; file "blackhole.hosts"; };
+zone "jcqoemccncksry.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "step-a-nova.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "geishy.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "castingawaysystem.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "foreverbeautifulimages.com.au
+" { type master; notify no; file "blackhole.hosts"; };
+zone "vjloernfwj.redmouse1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cinemania.us
+" { type master; notify no; file "blackhole.hosts"; };
+zone "policetimestvnews.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "geksar.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "agromachengineering.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleid-myaccount-purchase.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "focusprofessional.pk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-systemverification.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "srinidhigranites.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hiwk54dxjy.crazypanda1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "endeavourtour.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "i-msg1.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "unieuro.edu.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sbcomaha.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "kitthecgfnpynwxy.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "service-refunds.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "signin-secur0pp-payment-intlpay-service9987023125.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleid-icloudstore.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "amict.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ryropthetsed.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ebill.etisalat.fourteenstars.pk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "4r97sr5jxs.blackpeacock1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page84.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lnkdadmin.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ofdwcjnko.us
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-suspicioustransactionresolutioncenter.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "my-incid-icloud.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "applesecuremyaccount.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-appsicloud.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hjhqmbxyinislkkt.15e8hv.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "muscatya.id
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sudo32.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "absabanking.igatha.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sjawwmuflqmiprqr.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ahpi1.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hjhqmbxyinislkkt.1mwvgh.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "alverdevivo.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "meaner.me
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleveri-ficaton.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "applelcloud-support.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "akswimmingpoolandlights.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fauth.fasting.tk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "prayogispl.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-id-webinformation.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "garages2envy.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bismilantique.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "howrowthettof.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ddobnajanu.club
+" { type master; notify no; file "blackhole.hosts"; };
+zone "update-account.2017-support.team.comerv0.webs0801cr-cm-lgint-id-l0gin-subpp1-login-login-yah.dgryapi.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "koums.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-inportant.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "service-fraudpayments.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cliente02.novoportalb-b.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "account-notify.date
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ipc-origin-americanexpress.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ssl.amazon-id-15982.de-customercenter-verifikation.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "estolein.pl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "7dys.yellowmeercat1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "p27dokhpz2n7nvgr.1jzmjr.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "evv08iwz3p.tinybear1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "secure-accountunlocked.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-pageo1.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "activatieingfomulier.live
+" { type master; notify no; file "blackhole.hosts"; };
+zone "anadolukulubu.org.tr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "adityacctvsurveillance.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "skmladenade.ba
+" { type master; notify no; file "blackhole.hosts"; };
+zone "security-page-recovery.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "biotek.ukdw.ac.id
+" { type master; notify no; file "blackhole.hosts"; };
+zone "csw123123.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rabbar.freaze.eu
+" { type master; notify no; file "blackhole.hosts"; };
+zone "digichart.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "snow-mirror.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rdhcwro6t3.biglion1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "tulsawebconnect.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ppintl-service-limited-account-id-p4.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "de-sichererlogin-kundencheckout.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "unlocked-review-apple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verification-systems.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "creamgod.kro.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myappleipone.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-iphonemy.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gy8.downxd.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "suporteconsultafgtsinativo2017.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "smilingreflection.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "unisdr.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fiftytlond.club
+" { type master; notify no; file "blackhole.hosts"; };
+zone "76msw40bxs.lazyfish1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "promocodealerts.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.icloup-yuie.cn
+" { type master; notify no; file "blackhole.hosts"; };
+zone "china-iphone-id.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.apple-gpsch.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "accounts-mypaypal.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icloudaccount-update.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-service-case-llc.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "iforidgot-apple.market
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hjhqmbxyinislkkt.19xvyd.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "nemcicenadhanou.cz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "pvbeqjbqrslnkmashlsxb.us
+" { type master; notify no; file "blackhole.hosts"; };
+zone "services-intlaccount-apple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "findni-iphone.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "aws-cloud1.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wedogifts.com.au
+" { type master; notify no; file "blackhole.hosts"; };
+zone "login-appleid.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sato-tile.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gustmd1234.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "easywrite.com.my
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ika-sman1garut.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "confifsk.sumdu.edu.ua
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mycloud-3.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "amozesheshahrvandi.ir
+" { type master; notify no; file "blackhole.hosts"; };
+zone "5tht16i3yr.blackcat1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-webse.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gb-en01.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bluepackerid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "alavi36.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fiftytwasg.club
+" { type master; notify no; file "blackhole.hosts"; };
+zone "payment-update.site
+" { type master; notify no; file "blackhole.hosts"; };
+zone "useraccountvalidation-apple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "energypsychologynigeria.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "osmn-no.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ae-building.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "youthnexusuganda.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fenix-translation.com.ua
+" { type master; notify no; file "blackhole.hosts"; };
+zone "s.blackpeacock1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "loginaccounts.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.randomstring.lopamuser.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "acasamode.nl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "binksempire.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ableprintingco.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "secure-logoini-info.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ethalmost.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "chinesestudycenter.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "intlhelpcentermyac.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-unblockid7616899.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "login.steamcummunity.name
+" { type master; notify no; file "blackhole.hosts"; };
+zone "solve-your-account.online
+" { type master; notify no; file "blackhole.hosts"; };
+zone "usbank-com.890m.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "williamdebuys.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "account-securitylimitedcentre.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-team-verification.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "zeleny-sad37.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cegmmwyyaysqummq.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "u3gtl6fxxd.lazydog1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "canifit.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "djshanecb.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "blueshift.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "heqddegi.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "manager-appleid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "5lk74jk2xjxs.crazypeacock1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "help-secure-settings.hol.es
+" { type master; notify no; file "blackhole.hosts"; };
+zone "northernexposurebasketball.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.my-iocid-icloud.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "guyukc.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "support-limited-control.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "barakatagency.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "caixiaoqing.f3322.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "p27dokhpz2n7nvgr.1kyjw7.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "screeningnsurgery.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "thebestcar03.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cdoprojectgraduation.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "forportos.co
+" { type master; notify no; file "blackhole.hosts"; };
+zone "applesponsor.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dedarcondicionado.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "syhaw1516.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "access-and-security-intl.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fjytngtgpp.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "alltreksnepal.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "nnordson.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "9e2wn12dto.organicpanda1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sabsskyline.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ljch236.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verid01.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "agmdemo.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "loginhj-teck.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleid-apple.space
+" { type master; notify no; file "blackhole.hosts"; };
+zone "signin.amazon.co.uk-prime.form-unsuscribe.id-3849.downescorporateservices.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sinb0603.p-e.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "vmlovsxy.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "yes.92ddos.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "adityaindustry.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "thewallimage.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "alltimeservices.online
+" { type master; notify no; file "blackhole.hosts"; };
+zone "goodnewsmessage.890m.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "service-ppl-safe.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rnylenmwgiswbstlu.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "atulbhalla.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.takipcisitem.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apid-1.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verified-appleid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleidverification-servlet.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www-applleidstores.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bankruptcyzen.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fgts-saldo.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "espaceclientv4-orange-fr.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "intl-accountlocked-service.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "michellebarrios22.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "achgroup.co
+" { type master; notify no; file "blackhole.hosts"; };
+zone "eli-limerick.ie
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wsignin_en_ca.7v6.purchaseid.mucnos.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myaccount-verificatiion.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "conservadoradompedro.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "billing-customers-paypal.supportxcustomers.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleiletisimi.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "birdsnestbites.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "clia.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "eventphotography.sg
+" { type master; notify no; file "blackhole.hosts"; };
+zone "farizhamdan.web.id
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.applefindtwios.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "atack.zz.am
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dkfmadl1.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-id-hasbeen-locked.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "anglicancatholic.biz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "chicolawgroup.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "eectercume.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rareearthapps.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myuaccname-apple.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "locanorte.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "magentoassist.nl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "access-confirmation.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myaccounts-pyspl.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-requiredinfo.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "christiansymbols.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "webmail-icloud.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gdocs.pro
+" { type master; notify no; file "blackhole.hosts"; };
+zone "promnm.davlsbrownlaw.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sinje4001.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "suncityfoaminsulation.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gotoebaycustomersupport.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "login-reminderlimited.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fresholafarm.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "clsrn0902.zz.am
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mgmfoundation.ph
+" { type master; notify no; file "blackhole.hosts"; };
+zone "signin.amazon.co.uk-prime.form-unsuscribe.id-5520.downescorporateservices.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "unlock-step-verification.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "signin.amazon.co.uk-prime.form-unsuscribe.id-7816.nproofing.com.au
+" { type master; notify no; file "blackhole.hosts"; };
+zone "applers-id.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "meetcsi.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lee3xmes.blackpanda1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "casalparis.cat
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appstore-centers-i.cloud
+" { type master; notify no; file "blackhole.hosts"; };
+zone "group-secureservice.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ffwlll.cc
+" { type master; notify no; file "blackhole.hosts"; };
+zone "trinitytheological.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dealssy.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "javickphotography.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "zhongtongbus.lk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ektry.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "zhangjishun.f3322.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www1-apple.store
+" { type master; notify no; file "blackhole.hosts"; };
+zone "inspiran.co.id
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.icloud-appleld.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gladscricket.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "accounts-verify-paypal.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "godookan.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "j679964.myjino.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "adoptaunarbol.co
+" { type master; notify no; file "blackhole.hosts"; };
+zone "contactcostumer-service.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icloud-billing1.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "login-plipals.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "clickforseo.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ontsfe73zy.redswan1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "toutfarangigroup.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "accountsrecoveryservice.pl.paypal.ccoo-aytodesevilla.es
+" { type master; notify no; file "blackhole.hosts"; };
+zone "login-secure-account.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "colobran.party
+" { type master; notify no; file "blackhole.hosts"; };
+zone "diagnosticautomobile.fr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hetsedryropt.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "aaconsultrade.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "qzxs.silvertiger1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gtvqqqyinu.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "equdtgexdgl.us
+" { type master; notify no; file "blackhole.hosts"; };
+zone "h3c7l7pybw.lazyfish1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "m.facebook.com----------------securelogin----acount-confirm.aggly.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dgenuiservscrow.co.uk.micro36softoutlook17.mainesseproptscrillar.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "opakota.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ck4h5w1t57.ticklishpanda1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleverif.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page95.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lonewolftherapies.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "p27dokhpz2n7nvgr.1pbfky.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "karambia2-fb.esy.es
+" { type master; notify no; file "blackhole.hosts"; };
+zone "3549i4jh495.tk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "locjoly.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleid-webmail.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "entreverodomoha.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rggchblmasalmlfh.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "castlerealty.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "szkola.babimost.pl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "kim531355.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleid-accountdisable.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "happyearth.co.za
+" { type master; notify no; file "blackhole.hosts"; };
+zone "de-info-kunden-verifikationsicherer.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bokyem.kro.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myrefund-billclient-error.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "payment-check.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "medixasia.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cbvpkpdugeylkeas.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "injae.myq-see.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icloudhistory.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "securemail-jpmorganchase.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sys-v2.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "tdverify2.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mydesigner.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dexkogltm5yxxwqszku3g1fp.cloudhosting.rsaweb.co.za
+" { type master; notify no; file "blackhole.hosts"; };
+zone "infoupdateppl.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "nyxaeltggspy.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hotelpleasurepalace.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myobi.cf
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fgtsnodiacerto.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icloud-block.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page97.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "identify-id.usa.cc
+" { type master; notify no; file "blackhole.hosts"; };
+zone "de-information-mitglieder-sichererlogin.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "beadsnfashion.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "espaceclientsv3-orange-fr.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bmrlawyers.com.au
+" { type master; notify no; file "blackhole.hosts"; };
+zone "pardtosinsing.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "alsaifmed.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "aghaz.org.pk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.iphone-ary.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "uk-paypal-home-2017mppuk6778656rg.th6y5.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rosecommercial.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "tajltgccl.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "littleranch.it
+" { type master; notify no; file "blackhole.hosts"; };
+zone "nvgindia.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "support1store.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "paypal-help-verify-id-log-in.nut.cc
+" { type master; notify no; file "blackhole.hosts"; };
+zone "episcopalscience.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "leadershore.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verif-sec0pp987656789-accsloginen.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "host-app1.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "muscleactivation.london
+" { type master; notify no; file "blackhole.hosts"; };
+zone "host-app0.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "transantarcticexpedition.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "readalert-bofanews.c9users.io
+" { type master; notify no; file "blackhole.hosts"; };
+zone "espansionesrl.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "electricscotland.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "adds-info.tech
+" { type master; notify no; file "blackhole.hosts"; };
+zone "psk3003.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "solesnok.pl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "laportecountyrtl.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ladym.kz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-find-iphone-app.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rahafeministcollective.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fgts.gov.br.trabalhador.servicos_online.saldo_fgts.asp.cr27525.tmweb.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "raidcomasia.my
+" { type master; notify no; file "blackhole.hosts"; };
+zone "solutation-update.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.icloud-locide.site
+" { type master; notify no; file "blackhole.hosts"; };
+zone "secondchance.cl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dncorg.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verifappleaccount.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "recover-acct5225.esy.es
+" { type master; notify no; file "blackhole.hosts"; };
+zone "suspicious-activity-account.nut.cc
+" { type master; notify no; file "blackhole.hosts"; };
+zone "heyaliyaaah.mzzhost.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "support-verification-id.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.losapple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "paypal-resolve.website
+" { type master; notify no; file "blackhole.hosts"; };
+zone "p27dokhpz2n7nvgr.12hxjv.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ll-host2.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "nozomimiyazaki.main.jp
+" { type master; notify no; file "blackhole.hosts"; };
+zone "account-limitedcentre.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleid.apple.restore-id.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.appleid-top.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-unlockedid778823.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cesinha.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-perform.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "magazineofertasdiarias.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "login-customer.info.support-paypl-account.gq
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bakhtavar.ir
+" { type master; notify no; file "blackhole.hosts"; };
+zone "shellback.sytes.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "p27dokhpz2n7nvgr.1evjph.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "capalety.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ym.usuhome.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "eidosconsultores.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "aadmin-apple.space
+" { type master; notify no; file "blackhole.hosts"; };
+zone "instagramh.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "qsnfdous.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lwlkbyofrcyjmu.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "attwn.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "3ofau8x33u.smallpanda1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hotel-les-creoles.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.sanagustinromblon.gov.ph
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dentalimplantformula.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "account-expired.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "secure-applesid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "elbinger.dk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lettersofintent.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gdocs.download
+" { type master; notify no; file "blackhole.hosts"; };
+zone "emojo.nl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "americanzbuy.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.icloud-iphoneld.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cipvt.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "edisolsac.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bipaparfemi.hr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verified-all.club
+" { type master; notify no; file "blackhole.hosts"; };
+zone "einsteinsurance.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "pdkredutrust.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "laotie.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "coolinaas.pw
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ventusdesigns.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.postepay-verifica-online-fcs.ddns.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "beijingvampires.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "amazon-versand.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-permanent.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "win-securityalert3.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "aimfire.com.sg
+" { type master; notify no; file "blackhole.hosts"; };
+zone "beaushop.id
+" { type master; notify no; file "blackhole.hosts"; };
+zone "etransfer-bellmobilityrefund.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "facebook.fasting.tk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "u5189137.ct.sendgrid.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appresolution.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "eiscawcsgiaemsco.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "perfectitsoft.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "my-oxy.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wellsfargo.login.info.sabsskyline.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cr2-02.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "7lpob56tj.net-bma.club
+" { type master; notify no; file "blackhole.hosts"; };
+zone "crechearteinfantil.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "services-account-verifications-required.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "locked-page.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "info-accesblocked.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "depuisgef.us
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ihgjfw.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "checkorderconfirmation.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleidx-apple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "globlaelectronic.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleuo.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "inteduconnect.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "instagramnl.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "alsgus132.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lee72m.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "customerservicebofassrv.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mvys.yellowleopard1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "betellisnc.it
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bluewinc.weebly.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "signin-account-verify-activity.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "signin.amazon.co.uk-prime.form-unsuscribe.id-4203.downescorporateservices.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "adds-notification.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "zinedfastka.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "beauty-pr.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "m-apple.pro
+" { type master; notify no; file "blackhole.hosts"; };
+zone "pesteledeaut.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "account-service-center.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "creamgod.0pe.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sergioweingarten343.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "notification-activity.16mb.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "idiomarchplanning.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "alascon.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "symonslaw.ca
+" { type master; notify no; file "blackhole.hosts"; };
+zone "eladorno.co
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bloqueracanticas.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "itunesapplenvoice.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "abacoinvestment.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "barokahperkasagroup.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "4eternity.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "yhhsfukar.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "details-update-resolutions.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "reativaragora.000webhostapp.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-re-login.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appidservice-policypage.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "world-connect.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ilbia71wco.bigmouse1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "luminocitinetworks.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cancel-paymentorderpaypal-check.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page87.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "blog.talentsbook.nl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "my-icloud-iccid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "saffetychecks-acuontrecovery.esy.es
+" { type master; notify no; file "blackhole.hosts"; };
+zone "akademiktez.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "beneficiodotrabalhador.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "amaap.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dns.qqgqqg.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "twitterverifiedaccount.site
+" { type master; notify no; file "blackhole.hosts"; };
+zone "afn.secured.login.account.localed.nasting.country-server.adsm.firos.rdipotios.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hjhqmbxyinislkkt.1fygsg.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "suport-lcloud.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "allhailthesilence.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "everyupayhelp.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "homedesigntr.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "spikemotorsports.com.my
+" { type master; notify no; file "blackhole.hosts"; };
+zone "iforidgot-apple.date
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-id.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hanoluexjqcf.us
+" { type master; notify no; file "blackhole.hosts"; };
+zone "semeandosaude.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "interac-re1fund.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "7y7o8s.organicladybug1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "senioresca.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fidelityein.astrologerworldwide.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cgi-webscr-billing-account.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "em6r4j85ng.bigfish1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "login-applecom.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bpefruwjahc.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icloud-chid.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dmdeltlxl.zz.am
+" { type master; notify no; file "blackhole.hosts"; };
+zone "yourinformationupdate.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ps-webapps.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "acepaper.co.ke
+" { type master; notify no; file "blackhole.hosts"; };
+zone "r0s.beautifulelephant1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-responsible.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "l91ktljctj.brownpanda1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "thewhiteswaninn.co.uk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "abutilon.se
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myapple-locked-account-resolve-data-service-webrecovery.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "desbloqueiomobile.online
+" { type master; notify no; file "blackhole.hosts"; };
+zone "validation-verification-account-required.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "evewronsedent.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dailyfinancialrecords.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lastlogin-data.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-accountaccesslocked-fraudprevention.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ropretratspar.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verify.start.ms11.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "loisirs77.fr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.apple.com-servwork.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "farazyhospital.winskit.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "yy22815.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "smestudio.com.uy
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lobvuk.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cancel-paymentorders-paypal.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "de-sicher-information-kundenlogin.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verification-auth.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "abgoldish.ro
+" { type master; notify no; file "blackhole.hosts"; };
+zone "usaa.com.inet.ent.logon.logon.redirectedfromlogoff.truemain.warefpub.globalproducts.priauth.nav.studentsuccess.com.au
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icloudmain.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-resolvedicloud.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "kenyanofersha.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "storees-apples.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "caixa.suporteconsultafgtsinativo2017.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "studiosf.fr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "woohuoje0807.0pe.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "jsserver.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www-ebay-dispute.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "systemdata.oa.to
+" { type master; notify no; file "blackhole.hosts"; };
+zone "promisingnews24.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "joelmessiler.000webhostapp.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "findwo-apple.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verifupdates.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "webshare.0pe.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "thekingoftrades.co.uk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "serviceds-activitys.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "grupocrescent.com.ar
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dropbox.lolog.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "airbnb-rent-apartment-davilistin.fr5257.rinethost.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-redirect-verification-id.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "steamcommunyity.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "swj.kfj.cc
+" { type master; notify no; file "blackhole.hosts"; };
+zone "contact-securemyaccount.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "howtomakeessentialoils.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "telcusw.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ecutrack.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "update-paypaallimited.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "unauthorize-account-signin.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "analuciahealthcoach.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lyretech.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ab-asesores.com.pe
+" { type master; notify no; file "blackhole.hosts"; };
+zone "services-account-verifications-secure.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sever-message.000webhostapp.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "online-care24.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "online-prvc.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "stevensveins.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "k123456.0pe.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "photomatch100.96.lt
+" { type master; notify no; file "blackhole.hosts"; };
+zone "tefmyrintl.com.uy
+" { type master; notify no; file "blackhole.hosts"; };
+zone "securever-hsbc1.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "my-iclid-icloud.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page82.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "g-cloud.pro
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.posta.it.bancaposta.foo-autenticazione.06fkjygeikirmkvorxglwoajzpdezdzvia58zbc9bkqnub3cyzoudo4du79k.lopamuser.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ns3.myhostcenter.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ns4.myhostcenter.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "nadasawaya.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "customerservice-appleid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "deoraadarshahighschool.edu.bd
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mxnyhxu.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "o89msond05.crazycat1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myecoconcept.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "netflixuser-support.validate-user.activation.safeguard.39u.netflix-secureserver.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "watube.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "indimedia.co.uk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "applestore-verification.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "client-service-app.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "thatdamblog.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "m.facebook.com-----------------securelogin---confirm.giftcardisrael.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "katzr.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fighterequipments.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page81.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page83.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ww3-appleid.store
+" { type master; notify no; file "blackhole.hosts"; };
+zone "p27dokhpz2n7nvgr.1nprob.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "agsdigital.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "jkdca.lk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "applexr-iphone.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appieidsecure-lockedlyaccount.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fivehundred.work
+" { type master; notify no; file "blackhole.hosts"; };
+zone "unlocked-appiclouds.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "qxyl.date
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cloud-checkyouraccount.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.posta.it.bancaposta.foo-autenticazione.medicupuli.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mail-service-costumeraccount.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "admin-paymant.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bourgeontech.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "vegetarianwomen.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mltmarine.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "p27dokhpz2n7nvgr.1wmvk2.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "iphone-app.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mirh.cl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "iforidgot-apple.science
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wellsfarrgo.online.adultfreakbook.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.apple-applexd.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verified-id.online
+" { type master; notify no; file "blackhole.hosts"; };
+zone "kmcmobile.com.np
+" { type master; notify no; file "blackhole.hosts"; };
+zone "host-ll1.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "suisscards.ch.arcot6.alpha-cruise.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gvsxww.online
+" { type master; notify no; file "blackhole.hosts"; };
+zone "1688.se
+" { type master; notify no; file "blackhole.hosts"; };
+zone "disproyec.cl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "qxttlvj.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bcol.barclaycard.co.uk.ecom.as2.initiallogon.do.x.49.y.35tc.qxbca23302.australianuniversity.com.au
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ups-webaps.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "unlocked-accountid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hdmiking.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cowosi.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wj123.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icluodx.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "liveathena.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "limitedaccresolve-help-service-bin.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "pj8zxtqd2z.redwolf1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "saman-saffarian.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "adds-info.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "extratravel.co.id
+" { type master; notify no; file "blackhole.hosts"; };
+zone "iforgot-account.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "desertsportswear.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "serviceds-activitys.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "filisan.ro
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dlagusdn1023.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "agurahk.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "adlimahsool.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.appie-securing.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "accountlimited-securegeneral.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "de-sicherermitglieder-checkout.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "b2solucoesinteligentes.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "payment-submission-service.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cfsaprts2-esapceclientse.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "crownvictoriahotel.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apptunes-appleid.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "vilidsss.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verify-apps.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "proarts.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.apple-air-icloud.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "clas-c7.biz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lasl654.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "reco.r-e.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sex123.p-e.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "s.yellowbird1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "xiaowen1223971595.f3322.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "reactivate-appleid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sicredisms.hol.es
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lilistephens.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "contopaypal.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "pplbhdiyuygbxdgo.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "1016-techpro.technology
+" { type master; notify no; file "blackhole.hosts"; };
+zone "account-unauthorized.unusualaccount.co.vu
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mjdental.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rachelnovosad.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "webs-gb0.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "austcar.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wilvorst.com.pl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleinter.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "drgullo.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "iouenviwrc.us
+" { type master; notify no; file "blackhole.hosts"; };
+zone "my-icloud-iecid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myapple-ipone.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bcol.barclaycard.co.uk.ecom.as2.initiallogon.do.x.49.y.35tc.qxbca23302.distributoradvt.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.update-appleid-apple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "britishcurryclub.co.uk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "jnep.sumdu.edu.ua
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mercedesign.no
+" { type master; notify no; file "blackhole.hosts"; };
+zone "signin.amazon.co.uk-prime.form-unsuscribe.id-6861.staticfiction.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ameliw4p.beget.tech
+" { type master; notify no; file "blackhole.hosts"; };
+zone "grupo14warrington.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ltsuk.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icloud-lock.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "almihrab.com.my
+" { type master; notify no; file "blackhole.hosts"; };
+zone "googledocprivategeneral.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wsosmywcwmocwusk.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "manage-supportservice.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "signin.amazon.co.uk-prime.form-unsuscribe.id-4804.downescorporateservices.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "0q02snbw71s.smallbutterfly1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "whdnqls.0pe.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "suksesazaria.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "chevysportsman.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "huzaifaindustries.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hrtbwqno.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cliente03.novoportalb-b.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myaccountapple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "insidelocation.ga
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.posta.it.bancaposta.foo-autenticazione.pmpzqwqyilyt0qctzuph1j4zhqkc6rnlu4apryx4nr3utmtdrtbljj2ubxbp.medicupuli.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "thread-verify.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "client-servicezones.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "xt2io2cach.redduck1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "res-center-verification-account-service.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "eletroshooping.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-assistant-support.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "tvcenter.ca
+" { type master; notify no; file "blackhole.hosts"; };
+zone "agenmurahgrosir.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ecollections.anexcdelventhal.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wedevelop.us
+" { type master; notify no; file "blackhole.hosts"; };
+zone "chk-update.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "comie.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "solf158.zz.am
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wachauer-marillenbauer.at
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mazproperties.ae
+" { type master; notify no; file "blackhole.hosts"; };
+zone "returnboard.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.posta.it.bancaposta.foo-autenticazione.lopamuser.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "advert-adm.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cloudcoirexports.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bestdog.ro
+" { type master; notify no; file "blackhole.hosts"; };
+zone "snurl.eu
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myid-gb1.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "letitruntwo.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "webapps-loginscure.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bruns-debray.de
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ink.f3322.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bonusmelia.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fgts-cef-inativos.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.payments-appleid-apple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "springsmattress.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "psa9416.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "czcxiansheng.f3322.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "golfmanager.it
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ie-app1.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "avisosealertass.couchpotatofries.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "suntech-int.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cunta.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "santamariaheleta.fr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.posta.it.bancaposta.foo-autenticazione.pesteledeaut.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "indexapps-summary.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "match209.biz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "pesantrenmedia.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-iosto.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "tianythread.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "metcore.com.ua
+" { type master; notify no; file "blackhole.hosts"; };
+zone "provabdevenv.co.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ffwlll.win
+" { type master; notify no; file "blackhole.hosts"; };
+zone "atlasindustries.biz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ferhattelefon.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dbaguide.com.au
+" { type master; notify no; file "blackhole.hosts"; };
+zone "metamorphosispoland.pl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "store.nanotechnology.com.pe
+" { type master; notify no; file "blackhole.hosts"; };
+zone "oonohousing.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "citrus.pk
+" { type master; notify no; file "blackhole.hosts"; };
+zone "assistonglobal.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appstore-confirmation.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sexymin2014.zz.am
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bcpwsa.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "customerservice-resolveaccount.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "etransfer-interac-paymentrefund.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "suporte-find-iphone.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "pilson.pl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "unlock-myaccount-i.cloud
+" { type master; notify no; file "blackhole.hosts"; };
+zone "akyakaferon.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dothothinhvuong.vn
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sqyjsa.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "pp-account-limits.ml
+" { type master; notify no; file "blackhole.hosts"; };
+zone "emailcostumers-limited.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "myfraudtransactionaccount.center
+" { type master; notify no; file "blackhole.hosts"; };
+zone "reserva-airbnb-aibbnb.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dev.lyddell.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "alumnus.unical.edu.ng
+" { type master; notify no; file "blackhole.hosts"; };
+zone "trilliumstafflng.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "m.mimzw.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "yjbpbgjbdsmnonsdadhvt.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "nchdanang.com.vn
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hjhqmbxyinislkkt.13bcem.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "iforidgot-apple.party
+" { type master; notify no; file "blackhole.hosts"; };
+zone "agmarketing.vicihost.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "renew-appleid-appservice-recovry-wmiid2017-billing.case4000.pw
+" { type master; notify no; file "blackhole.hosts"; };
+zone "securityaccount-resolved.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "secure-myaccount.redirectme.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "paypal-comarcent-virification-id-loca.soa2016.adythree.web.id
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hcharbach.de
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.medicupuli.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.service-raiffeisen.online
+" { type master; notify no; file "blackhole.hosts"; };
+zone "buscar.cloud
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-icloud-account.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "pliset.pl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "billing.netflix.user.solution.id3.userdirectionunlock.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "tuhintourism.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mttravels.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icloud-confirmation-identifty.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "customer-activation.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "paystationbd.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ykeymen.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-ldverify.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ssl.amazon-id-17982.de-customercenter-verifikation.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "buddhistheritagetours.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "thefake.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "classified38.ir
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ll-host2.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "k2ktees.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "crystaldreamsgetaway.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "faridabadsmartcitylimited.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "globaldrillingequipment.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "active-your-pp.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-set.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "iphone-ame.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "exoqlnlxhdbxkxrhymj.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "gdocs.win
+" { type master; notify no; file "blackhole.hosts"; };
+zone "portalvenezolano.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-kyrhdgne.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "shengfengling.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sicher-payp.al-serviceguard.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fgts-caixagov.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "feltstood.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "b8wzpg0s5r.bigbird1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "365online.com.bramleyhomestay.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "abdollahi.us
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.posta.it.bancaposta.foo-autenticazione.aq2dxj4zif2yctod24v5h4ymdfiaoehpu9shmhqryethjx9di3kcqnfw7b2d.lopamuser.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.apple.com-redirect-authenticatio-accountid.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icloud-ceid.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "fbhahn.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mimo4520.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "qegecgntl.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "customerdetailoreses.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "signin-pp-acc99808768-barokahin.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "oceansrock.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wifeallow.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "6yzcmtbs.purplecat1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www-ebay-dispute-payment.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "icloud-ns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "abelhasecompanhia.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "queenpharma.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "iforidgot-apple.win
+" { type master; notify no; file "blackhole.hosts"; };
+zone "tasiosgrigoris.gr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ashfordvirtualsolutions.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "help-notifications.co.nf
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rlaalsrb2733.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wextvku.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "andrewrobertsllc.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "zhanit.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "comfirm-account-fraud-php.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "niveshgroup.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleid-customersignin.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "manage-signverifyaccess.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "informatlons-login.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.randomstring.pesteledeaut.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "meanconsulting.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dropboxdema.aguntasolo.club
+" { type master; notify no; file "blackhole.hosts"; };
+zone "afraniorodriguezrosero.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-security-measure-protected.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "payment-update.website
+" { type master; notify no; file "blackhole.hosts"; };
+zone "login-user.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "account-update-login.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "viaggitur.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "demetrix.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleides-ie.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "anzoateguicheerleading.com.ve
+" { type master; notify no; file "blackhole.hosts"; };
+zone "tvoj-remont.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "chemindeferlo.altervista.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ebay-purchase.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "data-validmember.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "elimenglishschooltrust.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wa-solutations-limited.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "advocaatroex.be
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rocketwireless.me
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleun-lock.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ratsparropret.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "subdiy.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "locate-my-idevice.online
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-fiind.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dlagusrn1023.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "agny7s.myjino.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hjhqmbxyinislkkt.1fnjrj.top
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appie-id-chine.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "uuianqwjmdmn.eu
+" { type master; notify no; file "blackhole.hosts"; };
+zone "goodrecipesonline.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "registered-customers.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "pkpk4155.kro.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appssecureloginacctime.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.stops-appid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "jeeyo.0pe.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleid-verivied.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "aureliuswood.ca
+" { type master; notify no; file "blackhole.hosts"; };
+zone "unusual-activities-account.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "check-account-now.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "oumweb.tripod.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "transagro.pl
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-infrs.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cabinetelendil.be
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bva90t41zs.bluegorilla1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "amanaind.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-support-verification.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "booksonline.co.in
+" { type master; notify no; file "blackhole.hosts"; };
+zone "requireconfirmlogin.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "docscloud.download
+" { type master; notify no; file "blackhole.hosts"; };
+zone "whirlpartners.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "url-apple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "profileauthor.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sibuyagr.co.za
+" { type master; notify no; file "blackhole.hosts"; };
+zone "dk9zcglrjpgs.crazypeacock1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "jerry.0pe.kr
+" { type master; notify no; file "blackhole.hosts"; };
+zone "supportverifyimitedcenter.net
+" { type master; notify no; file "blackhole.hosts"; };
+zone "domeliseu.org.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "itune-policy-updates.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bitsgigo.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "leecom-cn.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "ihasler.de
+" { type master; notify no; file "blackhole.hosts"; };
+zone "yadimen.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "1s.redpeacock1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "lj00r69i7f.bigduck1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "rbcroyalbank.notifyvq.beget.tech
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sanjeevaniayurvedics.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.infoplantillas.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "accountsummary.website
+" { type master; notify no; file "blackhole.hosts"; };
+zone "5d201w9s.greenbird1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "nnnlafqfnrbynwor.us
+" { type master; notify no; file "blackhole.hosts"; };
+zone "startakip.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "docscloud.win
+" { type master; notify no; file "blackhole.hosts"; };
+zone "wjddn4453.codnsc.om
+" { type master; notify no; file "blackhole.hosts"; };
+zone "itunes-billing-processor-disabled.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bluewincc.weebly.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page99.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verify2nd.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "support-recovery-appleid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple.14.clcpublication.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "com-signin-page.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "kalendertest.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mcragsd.000webhostapp.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "eftabscolombia.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verify-apleid.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "saferpdf.000webhostapp.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "billing.netflix.user.solution.id4.userdirectionunlock.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cceibd.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "customeraccountummary.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "loginmyaccountpaypal.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "support-tibia.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cz15.co.vu
+" { type master; notify no; file "blackhole.hosts"; };
+zone "1fwpni8daq.lazyfrog1.xyz
+" { type master; notify no; file "blackhole.hosts"; };
+zone "addestramento.ru
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apple-id-applewebinfo.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "snrav.cn
+" { type master; notify no; file "blackhole.hosts"; };
+zone "mayray.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "eccolombia.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "jnstly.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "eduradiadores.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hao123vip.3322.org
+" { type master; notify no; file "blackhole.hosts"; };
+zone "copyprintduplicate.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "moradapinaos.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "renew-appleid-appservice-recovry-wmiid2017-billing.case4001.pw
+" { type master; notify no; file "blackhole.hosts"; };
+zone "postesecurelogin.randomstring.medicupuli.for-our.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page90.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "natwest-validate.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.secure-activityss.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleid-mystoreiclound.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "hargahonda-palembang.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "12stulev.by
+" { type master; notify no; file "blackhole.hosts"; };
+zone "desbloqueiomobile.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "verif-paypal.com.access-limit.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "appleid.customerloginupdate.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "sexonz.codns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "bvdyrt.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "microsoft-security-alert-page85.info
+" { type master; notify no; file "blackhole.hosts"; };
+zone "cliente01.novoportalb-b.com.br
+" { type master; notify no; file "blackhole.hosts"; };
+zone "apollowebdesigns.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "www.icloud-aer-apple.com
+" { type master; notify no; file "blackhole.hosts"; };
+zone "365online.bramleyhomestay.com
+" { type master; notify no; file "blackhole.hosts"; };
